@@ -1,7 +1,7 @@
 import React from "react";
 
 // Komponen tombol berwarna menggunakan Props dan Children
-// Functional Component: Sudah ada
+// Ini Functional Component
 function Button({ bgColor, children }) {
     return (
         <button
@@ -13,7 +13,7 @@ function Button({ bgColor, children }) {
     );
 }
 
-// Class Component: Ditambahkan
+// Tambah Class Component
 class ButtonList extends React.Component {
     render() {
         return (
@@ -29,7 +29,7 @@ class ButtonList extends React.Component {
     }
 }
 
-// Functional Component: Sudah ada
+// Ini Functional Component
 export default function App() {
     return (
         <div className="text-2xl flex justify-center bg-gray-100 min-h-screen items-center">
